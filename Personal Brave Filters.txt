@@ -3,8 +3,8 @@
 ! Expires: 3 days
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 3
-! Date: 2024-06-09
+! Version: 4
+! Date: 2024-06-010
 
 ! Ads:
 hackread.com##.widget_text.text-63.widget
@@ -19,6 +19,7 @@ tennis.com##article > div.d3-l-grid--outer:has(> div.oc-c-article__body > div.bo
 atptour.com##._lpSurveyEmbed
 opentip.kaspersky.com##div[class^="AnalysisBanner"]
 tennis.com##.-sharebar
+watch.cricstream.*,tennisonline.*,socceronline.*##.m-1.fw-bold.btn-danger.btn
 
 ! Mobile App Banners:
 atptour.com##.atp_apps
