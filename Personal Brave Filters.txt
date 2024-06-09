@@ -3,7 +3,7 @@
 ! Expires: 3 days
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 2
+! Version: 3
 ! Date: 2024-06-09
 
 ! Ads:
@@ -11,8 +11,9 @@ hackread.com##.widget_text.text-63.widget
 ||tennis.com/assets/js/libraries/render-adv.js
 
 ! Ad-placeholders (Cosmetics):
-tennis.com##article > div.d3-l-grid--outer:has(> div.oc-c-article__body > div.body-parts-center > div.oc-c-article__adv)
+cnet.com##.g-text-xxxsmall.c-globalDisclosure_hasText.c-globalDisclosure
 ||inline.cnet.com
+tennis.com##article > div.d3-l-grid--outer:has(> div.oc-c-article__body > div.body-parts-center > div.oc-c-article__adv)
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices):
 atptour.com##._lpSurveyEmbed
