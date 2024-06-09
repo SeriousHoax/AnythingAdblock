@@ -1,0 +1,27 @@
+! Title: Personal Brave Filters
+! Disclaimer: Personal filters for Brave browser, intended for my own use only. It is used in conjunction with Fanboy's Annoyance List + uBlock filters – Annoyances
+! Expires: 3 days
+! Homepage: https://github.com/SeriousHoax/AnythingAdblock
+! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
+! Version: 1
+! Date: 2024-06-09
+
+! Ads:
+hackread.com##.widget_text.text-63.widget
+||tennis.com/assets/js/libraries/render-adv.js
+
+! Ad-placeholders (Cosmetics):
+tennis.com##article > div.d3-l-grid--outer:has(> div.oc-c-article__body > div.body-parts-center > div.oc-c-article__adv)
+
+! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices):
+atptour.com##._lpSurveyEmbed
+opentip.kaspersky.com##div[class^="AnalysisBanner"]
+tennis.com##.-sharebar
+
+! Mobile App Banners:
+atptour.com##.atp_apps
+atptour.com##.atp_article > p:has(> a[href^="https://www.atptour.com/"][href*="/apps?"][href*="app_banner"])
+||thehackernews.com/manifest.json
+
+! Social Icon Whitelists:
+torrentbd.net#@#.likebtn
