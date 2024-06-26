@@ -12,13 +12,10 @@ hackread.com##.widget_text.text-63.widget
 ! Ad-placeholders (Cosmetics):
 cnet.com##.g-text-xxxsmall.c-globalDisclosure_hasText.c-globalDisclosure
 ||inline.cnet.com
-tennis.com##article > div.d3-l-grid--outer:has(> div.oc-c-article__body > div.body-parts-center > div.oc-c-article__adv)
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices):
 atptour.com##._lpSurveyEmbed
 opentip.kaspersky.com##div[class^="AnalysisBanner"]
-tennis.com##.-sharebar
-watch.cricstream.*,tennisonline.*,socceronline.*##.m-1.fw-bold.btn-danger.btn
 
 ! Mobile App Banners:
 atptour.com##.atp_apps
