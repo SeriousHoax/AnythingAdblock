@@ -8,7 +8,6 @@
 
 ! Ads:
 hackread.com##.widget_text.text-63.widget
-||tennis.com/assets/js/libraries/render-adv.js
 
 ! Ad-placeholders (Cosmetics):
 cnet.com##.g-text-xxxsmall.c-globalDisclosure_hasText.c-globalDisclosure
