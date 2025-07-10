@@ -3,10 +3,11 @@
 ! Expires: 3 days
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 1
+! Version: 2
 ! Date: 2025-07-10
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances):
+androidauthority.com##div:has(> strong:has-text(Authority Insights))
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
 grok.com##div.fixed.px-5.py-4.items-center
