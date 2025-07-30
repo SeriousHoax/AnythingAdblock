@@ -1,10 +1,10 @@
 ! Title: Personal Adblock
 ! Disclaimer: Personal filter rules for uBlock Origin and AdGuard, intended for my own use only. It contains some rules that are not covered by EasyList & AdGuard
-! Expires: 3 days
+! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 3
-! Date: 2025-07-11
+! Version: 4
+! Date: 2025-07-30
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
