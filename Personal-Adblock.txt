@@ -6,7 +6,7 @@
 ! Version: 3
 ! Date: 2025-07-11
 
-! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances):
+! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
@@ -16,3 +16,8 @@ grok.com##div.fixed.px-5.py-4.items-center
 google.com#@#div[data-lhcontainer="1"][id][data-hveid]
 @@||google.*async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
 google.com#@#div[data-q][data-al]
+
+! Change the number of YouTube video thumbnails per row on the homepage
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 4 !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 4 !important;)
