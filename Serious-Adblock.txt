@@ -1,23 +1,37 @@
-! Title: Personal Adblock
+! Title: Serious Adblock
 ! Disclaimer: Personal filter rules for uBlock Origin and AdGuard, intended for my own use only. It contains some rules that are not covered by EasyList & AdGuard
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 4
-! Date: 2025-07-30
+! Version: 5
+! Date: 2025-08-04
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
+
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
 grok.com##div.fixed.px-5.py-4.items-center
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
+
 google.com#@#div[data-lhcontainer="1"][id][data-hveid]
 @@||google.*async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
 google.com#@#div[data-q][data-al]
 
 ! Change the number of YouTube video thumbnails per row on the homepage
+
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 4 !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 4 !important;)
+
+! Give domain specific priority to AdGuard filters over conflicting Bypass Paywalls Clean Filters rules
+! BPC rule: @@||consentmanager.net$script,third-party
+! Issue   : Shows cookie popup on lentedesportiva.com
+
+||delivery.consentmanager.net^$important,domain=lentedesportiva.com
+
+! BPC rule: @@||sdk.privacy-center.org^$script,third-party
+! Issue   : Shows cookie popup on flightradar24.com
+
+||sdk.privacy-center.org^$important,domain=flightradar24.com

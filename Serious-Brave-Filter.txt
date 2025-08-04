@@ -1,10 +1,10 @@
-! Title: Personal Brave Filters
+! Title: Serious Brave Filters
 ! Disclaimer: Personal filter rules for Brave browser, intended for my own use only. It is used in conjunction with Fanboy's Annoyance List + uBlock filters – Annoyances
-! Expires: 3 days
+! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 4
-! Date: 2024-06-10
+! Version: 5
+! Date: 2025-08-04
 
 ! Ads:
 hackread.com##.widget_text.text-63.widget
