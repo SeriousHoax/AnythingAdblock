@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        cs.rin.ru-Block-&-Remove-Unnecessary-Images
 // @namespace   https://github.com/SeriousHoax
-// @description Block and Remove Unnecessary User Avatars and Signature images on cs.rin.ru
+// @description Block and Remove Unnecessary User Avatars and Signature Images on cs.rin.ru
 // @match       https://cs.rin.ru/forum/*
 // @version     1
 // @author      SeriousHoax
