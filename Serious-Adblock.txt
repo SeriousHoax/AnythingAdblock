@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 5
-! Date: 2025-08-04
+! Version: 6
+! Date: 2025-08-11
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -35,3 +35,6 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 4
 ! Issue   : Shows cookie popup on flightradar24.com
 
 ||sdk.privacy-center.org^$important,domain=flightradar24.com
+
+! Enable client-side GPC signal for AdGuard
+*#%#//scriptlet('trusted-set-constant', 'navigator.globalPrivacyControl', 'true')
