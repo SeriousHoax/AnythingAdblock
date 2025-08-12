@@ -35,6 +35,3 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 4
 ! Issue   : Shows cookie popup on flightradar24.com
 
 ||sdk.privacy-center.org^$important,domain=flightradar24.com
-
-! Enable client-side GPC signal for AdGuard
-*#%#//scriptlet('trusted-set-constant', 'navigator.globalPrivacyControl', 'true')
