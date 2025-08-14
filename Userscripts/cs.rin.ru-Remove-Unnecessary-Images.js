@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name        cs.rin.ru-Remove-Unnecessary-Images
-// @namespace   https://github.com/SeriousHoax/AnythingAdblock
-// @description Remove Unnecessary User Signature Images on cs.rin.ru
-// @match       https://cs.rin.ru/forum/*
-// @version     2
-// @author      SeriousHoax
-// @run-at      document-start
-// @grant       none
+// @name         cs.rin.ru-Remove-Unnecessary-Images
+// @namespace    https://github.com/SeriousHoax
+// @homepageURL  https://github.com/SeriousHoax/AnythingAdblock
+// @description  Remove Unnecessary User Signature Images on cs.rin.ru
+// @match        https://cs.rin.ru/forum/*
+// @version      3
+// @author       SeriousHoax
+// @downloadURL  https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/main/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
+// @updateURL    https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/main/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
+// @run-at       document-start
+// @grant        none
 // ==/UserScript==
 
 (function () {
