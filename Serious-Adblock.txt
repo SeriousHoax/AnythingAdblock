@@ -3,12 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 8
+! Version: 9
 ! Date: 2025-08-14
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
+||cs.rin.ru/forum/download/file.php?avatar=*$image
 ||dodi-repacks.site/wp-content/uploads/*/test2*$image
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
 ||dodi-repacks.site/wp-content/uploads/*/OneHack*$image
