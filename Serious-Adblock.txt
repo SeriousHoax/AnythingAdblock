@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 9
-! Date: 2025-08-14
+! Version: 10
+! Date: 2025-09-01
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -13,6 +13,8 @@ androidauthority.com##div:has(> strong:has-text(Authority Insights))
 ||dodi-repacks.site/wp-content/uploads/*/test2*$image
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
 ||dodi-repacks.site/wp-content/uploads/*/OneHack*$image
+||i.ibb.co^$image,domain=thedaddy.top
+||i.imgur.com^$image,domain=thedaddy.top
 dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
@@ -21,6 +23,19 @@ duckduckgo.com##button:has-text(Share Feedback)
 ||fitgirl-repacks.site/wp-content/uploads/*/support2*$image
 fitgirl-repacks.site##a[href="https://fitgirl-repacks.site/donations/"]:upward(aside)
 grok.com##div.fixed.px-5.py-4.items-center
+thedaddy.top##div#footer
+thedaddy.top##div#sidebar
+thedaddy.top##p:has-text(Be sure to join Latest DISCORD)
+thedaddy.top##p:has-text(Use FREE VPN Chrome)
+twitch.tv##.channel-info-content div[class]:has(> div[class] > [style^='background-image: url('])
+twitch.tv##.chat-room__content > div:has(.channel-leaderboard-header-rotating__users)
+twitch.tv##.chat-room__content div:has(.bits-leaderboard-expanded-top-three-entry)
+twitch.tv##button[data-a-target="bits-button"]
+twitch.tv##button[data-a-target="gift-button"]
+twitch.tv##button[data-a-target="prime-offers-icon"]
+twitch.tv##button[data-a-target="subscribe-button"]
+twitch.tv##button[data-a-target="top-nav-get-bits-button"]
+twitch.tv##button:has-text(Go Ad-Free)
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
