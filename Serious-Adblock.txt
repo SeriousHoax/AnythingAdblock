@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 11
-! Date: 2025-09-03
+! Version: 12
+! Date: 2025-09-04
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -35,6 +35,10 @@ fortune.com##[href^="https://fortune.com/subscribe/"]
 grok.com##div.fixed.px-5.py-4.items-center
 india.com##.google-follow
 india.com##.google-preferred-source-btn
+india.com##.PreferredSources
+india.com##.PreferredSources-content
+india.com##.taboola-in-content
+loeb.com##.grecaptcha-badge
 techexplorist.com##.g-news
 thedaddy.top##div#footer
 thedaddy.top##div#sidebar
