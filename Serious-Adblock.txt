@@ -3,30 +3,45 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 10
-! Date: 2025-09-01
+! Version: 11
+! Date: 2025-09-03
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
-androidauthority.com##div:has(> strong:has-text(Authority Insights))
 ||cs.rin.ru/forum/download/file.php?avatar=*$image
 ||dodi-repacks.site/wp-content/uploads/*/test2*$image
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
 ||dodi-repacks.site/wp-content/uploads/*/OneHack*$image
+||fitgirl-repacks.site/wp-content/uploads/*/support2*$image
 ||i.ibb.co^$image,domain=thedaddy.top
 ||i.imgur.com^$image,domain=thedaddy.top
+androidauthority.com##div:has(> strong:has-text(Authority Insights))
+bloomberg.com##[href^="https://www.bloomberg.com/subscriptions"]
+bloomberg.com##button[aria-label="Copy page URL"]
+bloomberg.com##button[aria-label="Gift this article"]
+bloomberg.com##button[aria-label="Saved"]
+bloomberg.com##div[data-component="security-list"]
+businessinsider.com##.share-bar
+businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
 dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
-||fitgirl-repacks.site/wp-content/uploads/*/support2*$image
 fitgirl-repacks.site##a[href="https://fitgirl-repacks.site/donations/"]:upward(aside)
+fortune.com##button[data-cy="signinBtnDesktop"]
+fortune.com##div[data-cy="searchButton"]
+fortune.com##[href^="https://fortune.com/subscribe/"]
 grok.com##div.fixed.px-5.py-4.items-center
+india.com##.google-follow
+india.com##.google-preferred-source-btn
+techexplorist.com##.g-news
 thedaddy.top##div#footer
 thedaddy.top##div#sidebar
 thedaddy.top##p:has-text(Be sure to join Latest DISCORD)
 thedaddy.top##p:has-text(Use FREE VPN Chrome)
+tipranks.com##[data-link="go-premium"]
+tipranks.com###top_ribbon
 twitch.tv##.channel-info-content div[class]:has(> div[class] > [style^='background-image: url('])
 twitch.tv##.chat-room__content > div:has(.channel-leaderboard-header-rotating__users)
 twitch.tv##.chat-room__content div:has(.bits-leaderboard-expanded-top-three-entry)
