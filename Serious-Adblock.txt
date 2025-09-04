@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 12
+! Version: 13
 ! Date: 2025-09-04
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -49,12 +49,16 @@ tipranks.com###top_ribbon
 twitch.tv##.channel-info-content div[class]:has(> div[class] > [style^='background-image: url('])
 twitch.tv##.chat-room__content > div:has(.channel-leaderboard-header-rotating__users)
 twitch.tv##.chat-room__content div:has(.bits-leaderboard-expanded-top-three-entry)
+twitch.tv##.extension-view__iframe
+twitch.tv##.extensions-dock-card:has([role="tooltip"])
+twitch.tv##.ReactModal__Content[aria-label="Support with Combos"]
 twitch.tv##button[data-a-target="bits-button"]
 twitch.tv##button[data-a-target="gift-button"]
 twitch.tv##button[data-a-target="prime-offers-icon"]
 twitch.tv##button[data-a-target="subscribe-button"]
 twitch.tv##button[data-a-target="top-nav-get-bits-button"]
 twitch.tv##button:has-text(Go Ad-Free)
+twitch.tv##section#channel-player-disclosures
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
