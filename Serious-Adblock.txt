@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 16
-! Date: 2025-09-06
+! Version: 17
+! Date: 2025-09-12
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -13,8 +13,8 @@
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
 ||dodi-repacks.site/wp-content/uploads/*/OneHack*$image
 ||fitgirl-repacks.site/wp-content/uploads/*/support2*$image
-||i.ibb.co^$image,domain=thedaddy.top
-||i.imgur.com^$image,domain=thedaddy.top
+||i.ibb.co^$image,domain=daddylivestream.com
+||i.imgur.com^$image,domain=daddylivestream.com
 9to5google.com##.google-preferred-source-badge
 9to5google.com##.top-comment
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
@@ -23,17 +23,24 @@ bloomberg.com##button[aria-label="Copy page URL"]
 bloomberg.com##button[aria-label="Gift this article"]
 bloomberg.com##button[aria-label="Saved"]
 bloomberg.com##div[data-component="security-list"]
-businessinsider.com##.share-bar
 businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
-dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
+businessinsider.com##.share-bar
+daddylivestream.com##div#footer
+daddylivestream.com##div#sidebar
+daddylivestream.com##p:has-text(Be sure to join Latest DISCORD)
+daddylivestream.com##p:has-text(Use FREE VPN Chrome)
+darkreading.com##.InformaBarTech
+darkreading.com##.Navigation-SecondaryMenuWrapper
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
+dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
+fastcompany.com###masthead-promo-banner
 fitgirl-repacks.site##a[href="https://fitgirl-repacks.site/donations/"]:upward(aside)
+fortune.com##[href^="https://fortune.com/subscribe/"]
 fortune.com##button[data-cy="signinBtnDesktop"]
 fortune.com##div[data-cy="searchButton"]
-fortune.com##[href^="https://fortune.com/subscribe/"]
 grok.com##div.fixed.px-5.py-4.items-center
 india.com##.google-follow
 india.com##.google-preferred-source-btn
@@ -41,11 +48,13 @@ india.com##.PreferredSources
 india.com##.PreferredSources-content
 india.com##.taboola-in-content
 loeb.com##.grecaptcha-badge
+neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
+pcgamer.com###affiliate-disclaimer
+phys.org##.article-main__support
+popularmechanics.com##.contentSaveButton
 techexplorist.com##.g-news
-daddylivestream.com##div#footer
-daddylivestream.com##div#sidebar
-daddylivestream.com##p:has-text(Be sure to join Latest DISCORD)
-daddylivestream.com##p:has-text(Use FREE VPN Chrome)
+thehackernews.com##.footer-gap
+thehackernews.com##.webinar-con
 tipranks.com##[data-link="go-premium"]
 tipranks.com###top_ribbon
 twitch.tv##.channel-info-content div[class]:has(> div[class] > [style^='background-image: url('])
@@ -61,6 +70,8 @@ twitch.tv##div[aria-label="Support with Combos"]
 twitch.tv##section#channel-player-disclosures
 twitch.tv#$#.top-nav__prime { display: none !important; }
 twitch.tv#$#button[data-a-target="top-nav-get-bits-button"] { display: none !important; }
+windowslatest.com##.author-box
+windowslatest.com##.support-buttons-container
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
