@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 19
-! Date: 2025-09-14
+! Version: 20
+! Date: 2025-09-15
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -17,6 +17,7 @@
 ||i.imgur.com^$image,domain=daddylivestream.com
 9to5google.com##.google-preferred-source-badge
 9to5google.com##.top-comment
+adguard-dns.io##div:has(> span:has-text(Start free trial))
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
 axios.com##[aria-label="Add Axios on Google"]
 axios.com##[role="tooltip"]
