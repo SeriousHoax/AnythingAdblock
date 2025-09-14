@@ -55,7 +55,7 @@ neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
 neowin.net##span:has-text(When you purchase through links)
 newyorker.com###bookmark
 nytimes.com##[data-testid="share-tools"]
-pcgamer.com###affiliate-disclaimer
+gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com###affiliate-disclaimer
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
 techexplorist.com##.g-news
