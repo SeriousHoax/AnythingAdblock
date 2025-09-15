@@ -1,5 +1,5 @@
 ! Title: Serious Adblock
-! Disclaimer: Personal filter rules for uBlock Origin and AdGuard, intended for my own use only. It contains some rules that are not covered by EasyList & AdGuard
+! Disclaimer: Personal filter rules for AdGuard and uBlock Origin, intended for my personal use. It contains rules that are not covered by AdGuard and EasyList
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
