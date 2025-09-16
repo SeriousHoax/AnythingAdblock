@@ -51,10 +51,7 @@ fortune.com##[href^="https://fortune.com/subscribe/"]
 fortune.com##button[data-cy="signinBtnDesktop"]
 fortune.com##div[data-cy="searchButton"]
 grok.com##div.fixed.px-5.py-4.items-center
-india.com##.google-follow
 india.com##.google-preferred-source-btn
-india.com##.PreferredSources
-india.com##.PreferredSources-content
 india.com##.taboola-in-content
 loeb.com##.grecaptcha-badge
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
