@@ -23,6 +23,7 @@ aljazeera.com##.update-reading-list-tooltip
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
+apnews.com##.Page-authorInfo
 axios.com##[aria-label="Add Axios on Google"]
 axios.com##[role="tooltip"]
 bloomberg.com##[href^="https://www.bloomberg.com/subscriptions"]
