@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 25
+! Version: 26
 ! Date: 2025-09-17
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -24,6 +24,7 @@ androidauthority.com##div:has(> strong:has-text(Authority Insights))
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
 apnews.com##.Page-authorInfo
+arstechnica.com##.author-mini-bio
 axios.com##[aria-label="Add Axios on Google"]
 axios.com##[role="tooltip"]
 bloomberg.com##[href^="https://www.bloomberg.com/subscriptions"]
@@ -84,6 +85,7 @@ twitch.tv#$#.top-nav__prime { display: none !important; }
 twitch.tv#$#button[data-a-target="top-nav-get-bits-button"] { display: none !important; }
 windowslatest.com##.author-box
 windowslatest.com##.support-buttons-container
+wired.com##[data-testid="action-bar-wrapper"]
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
