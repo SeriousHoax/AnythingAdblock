@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 26
+! Version: 27
 ! Date: 2025-09-17
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -38,6 +38,8 @@ daddylivestream.com##div#footer
 daddylivestream.com##div#sidebar
 daddylivestream.com##p:has-text(Be sure to join Latest DISCORD)
 daddylivestream.com##p:has-text(Use FREE VPN Chrome)
+dailymail.co.uk###swipeIndicator
+dailymail.co.uk##.swipe-tutorial
 darkreading.com##.InformaBarTech
 darkreading.com##.Navigation-SecondaryMenuWrapper
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
@@ -45,6 +47,7 @@ dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
+eurogamer.net,rockpapershotgun.com##.mypop-header-wrapper
 fastcompany.com###masthead-promo-banner
 fitgirl-repacks.site##a[href="https://fitgirl-repacks.site/donations/"]:upward(aside)
 football365.com##.viafoura.vf-starter
@@ -59,10 +62,13 @@ india.com##.taboola-in-content
 loeb.com##.grecaptcha-badge
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
 neowin.net##span:has-text(When you purchase through links)
+newsweek.com##.btn-cont
+newsweek.com##.trust-project
 newyorker.com###bookmark
 nytimes.com##[data-testid="share-tools"]
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
+rt.com##.comments--migration
 techexplorist.com##.g-news
 thehackernews.com##.footer-gap
 thehackernews.com##.webinar-con
