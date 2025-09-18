@@ -59,7 +59,6 @@ india.com##.author-profile-row
 india.com##.breaking-news
 india.com##.google-preferred-source-btn
 india.com##.taboola-in-content
-loeb.com##.grecaptcha-badge
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
 neowin.net##span:has-text(When you purchase through links)
 newsweek.com##.btn-cont
