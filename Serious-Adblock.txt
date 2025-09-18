@@ -67,6 +67,7 @@ newyorker.com###bookmark
 nytimes.com##[data-testid="share-tools"]
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
+prothomalo.com##.meta-data-icons
 rt.com##.comments--migration
 techexplorist.com##.g-news
 thehackernews.com##.footer-gap
