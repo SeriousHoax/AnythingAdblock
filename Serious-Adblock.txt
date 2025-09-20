@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 30
-! Date: 2025-09-19
+! Version: 31
+! Date: 2025-09-21
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -48,6 +48,11 @@ dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
 eurogamer.net,rockpapershotgun.com##.mypop-header-wrapper
+exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', '#termsCheckbox')
+exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', 'a[ng-click="guest()"]')
+exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', 'button[ng-click="$ctrl.propObj.skip()"]')
+exchange.xforce.ibmcloud.com##.popover-inner
+exchange.xforce.ibmcloud.com##[data-testid="api-nudge"]
 fastcompany.com###masthead-promo-banner
 fitgirl-repacks.site##a[href="https://fitgirl-repacks.site/donations/"]:upward(aside)
 football365.com##.viafoura.vf-starter
