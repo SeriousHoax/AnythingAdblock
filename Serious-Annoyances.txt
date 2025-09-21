@@ -1,9 +1,9 @@
-! Title: Serious Adblock
-! Disclaimer: Personal filter rules for AdGuard and uBlock Origin, intended for my personal use. It contains rules that are not covered by AdGuard and EasyList
+! Title: Serious Annoyances
+! Disclaimer: Personal filter rules for AdGuard and uBlock Origin, intended for my personal use. It contains rules that are not covered by AdGuard and potentially EasyList
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 31
+! Version: 32
 ! Date: 2025-09-21
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
