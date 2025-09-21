@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 33
+! Version: 34
 ! Date: 2025-09-22
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -108,6 +108,9 @@ washingtonpost.com##[aria-label="Save this article"]
 windowslatest.com##.author-box
 windowslatest.com##.support-buttons-container
 wired.com##[data-testid="action-bar-wrapper"]
+
+! Block Microsoft sign-in popups per-site
+||edge-auth.microsoft.com/js/ms_auth_client.min.js$script,domain=newsweek.com|popularmechanics.com
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
