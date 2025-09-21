@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 32
-! Date: 2025-09-21
+! Version: 33
+! Date: 2025-09-22
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -27,6 +27,9 @@ apnews.com##.Page-authorInfo
 arstechnica.com##.author-mini-bio
 axios.com##[aria-label="Add Axios on Google"]
 axios.com##[role="tooltip"]
+bbc.com##button[data-testid="saveButton"]
+bbc.com##div[data-component="text-block"]:has(a[href*="techdecoded-newsletter"])
+bbc.com##div[data-testid="image"]:has(img[alt*="Tech Decoded"])
 bloomberg.com##[href^="https://www.bloomberg.com/subscriptions"]
 bloomberg.com##button[aria-label="Copy page URL"]
 bloomberg.com##button[aria-label="Gift this article"]
@@ -42,11 +45,16 @@ dailymail.co.uk###swipeIndicator
 dailymail.co.uk##.swipe-tutorial
 darkreading.com##.InformaBarTech
 darkreading.com##.Navigation-SecondaryMenuWrapper
+dhakatribune.com##.tts_read_btn
+dhakatribune.com###firebase-subscriber-bell
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
 dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##button:has-text(Share Feedback)
+earth.com##p:has(a[href*="https://www.earth.com/earthsnap/"])
+earth.com##p:has(a[href*="https://www.earth.com/subscribe/"])
+earth.com##p:has-text(—–)
 eurogamer.net,rockpapershotgun.com##.mypop-header-wrapper
 exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', '#termsCheckbox')
 exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', 'a[ng-click="guest()"]')
@@ -72,6 +80,8 @@ newyorker.com###bookmark
 nytimes.com##[data-testid="share-tools"]
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
+popularmechanics.com##div[data-journey-blur]:has(img[alt*="Headshot of"])
+popularmechanics.com##section:has-text(We may earn commission if you buy)
 prothomalo.com##.meta-data-icons
 rt.com##.comments--migration
 techexplorist.com##.g-news
