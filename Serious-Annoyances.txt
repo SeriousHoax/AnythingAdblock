@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 36
+! Version: 37
 ! Date: 2025-09-22
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -46,7 +46,6 @@ dailymail.co.uk##.swipe-tutorial
 darkreading.com##.InformaBarTech
 darkreading.com##.Navigation-SecondaryMenuWrapper
 dhakatribune.com##.tts_read_btn
-dhakatribune.com###firebase-subscriber-bell
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
 dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
