@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 37
+! Version: 38
 ! Date: 2025-09-22
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -25,6 +25,8 @@ androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techrada
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
 apnews.com##.Page-authorInfo
 arstechnica.com##.author-mini-bio
+av-comparatives.org##.fm-bar
+av-comparatives.org##.pojo-a11y-toolbar-right
 axios.com##[aria-label="Add Axios on Google"]
 axios.com##[role="tooltip"]
 bbc.com##button[data-testid="saveButton"]
@@ -37,10 +39,12 @@ bloomberg.com##button[aria-label="Saved"]
 bloomberg.com##div[data-component="security-list"]
 businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
 businessinsider.com##.share-bar
+cybersecuritynews.com##.author-box-wrap
 daddylivestream.com##div#footer
 daddylivestream.com##div#sidebar
 daddylivestream.com##p:has-text(Be sure to join Latest DISCORD)
 daddylivestream.com##p:has-text(Use FREE VPN Chrome)
+businessinsider.com##section.post-video-recirc
 dailymail.co.uk###swipeIndicator
 dailymail.co.uk##.swipe-tutorial
 darkreading.com##.InformaBarTech
@@ -66,6 +70,12 @@ football365.com##.viafoura.vf-starter
 fortune.com##[href^="https://fortune.com/subscribe/"]
 fortune.com##button[data-cy="signinBtnDesktop"]
 fortune.com##div[data-cy="searchButton"]
+gamingonlinux.com##.body.group.announce
+gamingonlinux.com##.body.group.rules-reminder
+gamingonlinux.com##.body.group.social-media-comments
+gamingonlinux.com##.box.affiliate_meta
+gamingonlinux.com##.h-card.p-author.box.comment
+gamingonlinux.com##.support_us_button
 grok.com##div.fixed.px-5.py-4.items-center
 india.com##.author-profile-row
 india.com##.breaking-news
