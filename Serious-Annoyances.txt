@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 38
-! Date: 2025-09-22
+! Version: 39
+! Date: 2025-09-23
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -39,6 +39,11 @@ bloomberg.com##button[aria-label="Saved"]
 bloomberg.com##div[data-component="security-list"]
 businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
 businessinsider.com##.share-bar
+cnet.com,zdnet.com##.c-globalDisclosure
+cnet.com,zdnet.com##p:has(a[href*="google.com/preferences/source"])
+cnet.com##.c-globalAuthorImage
+cnet.com##.c-globalAuthor_meta .u-flexbox
+cnet.com##hr
 cybersecuritynews.com##.author-box-wrap
 daddylivestream.com##div#footer
 daddylivestream.com##div#sidebar
@@ -117,6 +122,9 @@ washingtonpost.com##[aria-label="Save this article"]
 windowslatest.com##.author-box
 windowslatest.com##.support-buttons-container
 wired.com##[data-testid="action-bar-wrapper"]
+zdnet.com##.c-globalAuthor_image
+zdnet.com##.c-globalAuthor_metaItem:not(.c-globalAuthor_metaItem-dateTime)
+zdnet.com##.c-globalEditorsChoiceBadge_container
 
 ! Block Microsoft sign-in popups per-site
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js$script,domain=newsweek.com|popularmechanics.com
