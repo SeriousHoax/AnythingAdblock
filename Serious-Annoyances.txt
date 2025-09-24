@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 41
+! Version: 42
 ! Date: 2025-09-24
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -15,6 +15,8 @@
 ||fitgirl-repacks.site/wp-content/uploads/*/support2*$image
 ||i.ibb.co^$image,domain=daddylivestream.com
 ||i.imgur.com^$image,domain=daddylivestream.com
+||startech.com.bd/image/catalog/ads/*$image
+||startech.com.bd/image/catalog/home/popup/*$image
 9to5google.com##.google-preferred-source-badge
 9to5google.com##.top-comment
 adguard-dns.io##div:has(> span:has-text(Start free trial))
@@ -104,6 +106,7 @@ thehackernews.com##.webinar-con
 tipranks.com##[data-link="go-premium"]
 tipranks.com###top_ribbon
 space.com,techradar.com,tomsguide.com,windowscentral.com##[data-component-name="Recirculation:Overlay:Dialog"]
+startech.com.bd##.popup
 tomsguide.com,tomshardware.com##p:has-text(add us as a preferred source)
 twitch.tv##.channel-info-content div[class]:has(> div[class] > [style^='background-image: url('])
 twitch.tv##.chat-room__content > div:has(.channel-leaderboard-header-rotating__users)
