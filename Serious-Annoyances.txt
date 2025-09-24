@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 42
+! Version: 43
 ! Date: 2025-09-24
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -99,6 +99,7 @@ popularmechanics.com##.contentSaveButton
 popularmechanics.com##div[data-journey-blur]:has(img[alt*="Headshot of"])
 popularmechanics.com##section:has-text(We may earn commission if you buy)
 prothomalo.com##.meta-data-icons
+prothomalo.com##.print-none:has(a[aria-label="Google News"])
 rt.com##.comments--migration
 techexplorist.com##.g-news
 thehackernews.com##.footer-gap
