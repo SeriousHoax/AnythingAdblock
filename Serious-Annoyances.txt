@@ -3,11 +3,12 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 44
+! Version: 45
 ! Date: 2025-09-25
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
+||assets.iflscience.com/assets/authorNo/*/avatar/*$image
 ||cs.rin.ru/forum/download/file.php?avatar=*$image
 ||dodi-repacks.site/wp-content/uploads/*/test2*$image
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
@@ -47,6 +48,8 @@ cnet.com##.c-globalAuthorImage
 cnet.com##.c-globalAuthor_meta .u-flexbox
 cnet.com##hr
 cybersecuritynews.com##.author-box-wrap
+cybersecuritynews.com##a:has-text(Follow on LinkedIn)
+cybersecuritynews.com##p:has-text(Follow us on)
 daddylivestream.com##div#footer
 daddylivestream.com##div#sidebar
 daddylivestream.com##p:has-text(Be sure to join Latest DISCORD)
@@ -74,6 +77,8 @@ exchange.xforce.ibmcloud.com##[data-testid="api-nudge"]
 fastcompany.com###masthead-promo-banner
 fitgirl-repacks.site##a[href="https://fitgirl-repacks.site/donations/"]:upward(aside)
 football365.com##.viafoura.vf-starter
+fortune.com##[data-cy="article-authors"]
+fortune.com##[data-cy="authors-bio-cards"]
 fortune.com##[href^="https://fortune.com/subscribe/"]
 fortune.com##button[data-cy="signinBtnDesktop"]
 fortune.com##div[data-cy="searchButton"]
@@ -83,16 +88,21 @@ gamingonlinux.com##.body.group.social-media-comments
 gamingonlinux.com##.box.affiliate_meta
 gamingonlinux.com##.h-card.p-author.box.comment
 gamingonlinux.com##.support_us_button
+iflscience.com##.article__bottom__meta
+iflscience.com##.authors-section
 india.com##.author-profile-row
 india.com##.breaking-news
 india.com##.google-preferred-source-btn
 india.com##.taboola-in-content
+itsfoss.com##section:has(> div > div.flex.flex-row a[href^="/author/"])
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
 neowin.net##span:has-text(When you purchase through links)
 newsweek.com##.btn-cont
 newsweek.com##.trust-project
 newyorker.com###bookmark
 nytimes.com##[data-testid="share-tools"]
+nytimes.com##.bottom-of-article p:has(a.authorPageLinkClass)
+nytimes.com##div:has(> .byline-container a[href^="https://www.nytimes.com/by/"])
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
 popularmechanics.com##div[data-journey-blur]:has(img[alt*="Headshot of"])
