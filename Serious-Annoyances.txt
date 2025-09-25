@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 45
-! Date: 2025-09-25
+! Version: 46
+! Date: 2025-09-26
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -115,6 +115,7 @@ thehackernews.com##.footer-gap
 thehackernews.com##.webinar-con
 tipranks.com##[data-link="go-premium"]
 tipranks.com###top_ribbon
+securityweek.com##.zox-author-box-wrap
 space.com,techradar.com,tomsguide.com,windowscentral.com##[data-component-name="Recirculation:Overlay:Dialog"]
 startech.com.bd##.popup
 tomsguide.com,tomshardware.com##p:has-text(add us as a preferred source)
