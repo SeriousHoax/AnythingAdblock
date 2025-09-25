@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 43
-! Date: 2025-09-24
+! Version: 44
+! Date: 2025-09-25
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -83,7 +83,6 @@ gamingonlinux.com##.body.group.social-media-comments
 gamingonlinux.com##.box.affiliate_meta
 gamingonlinux.com##.h-card.p-author.box.comment
 gamingonlinux.com##.support_us_button
-grok.com##.upsell-small
 india.com##.author-profile-row
 india.com##.breaking-news
 india.com##.google-preferred-source-btn
