@@ -3,12 +3,13 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 46
+! Version: 47
 ! Date: 2025-09-26
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
 ||assets.iflscience.com/assets/authorNo/*/avatar/*$image
+||bleepstatic.com/author/*$image
 ||cs.rin.ru/forum/download/file.php?avatar=*$image
 ||dodi-repacks.site/wp-content/uploads/*/test2*$image
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
@@ -35,6 +36,7 @@ axios.com##[role="tooltip"]
 bbc.com##button[data-testid="saveButton"]
 bbc.com##div[data-component="text-block"]:has(a[href*="techdecoded-newsletter"])
 bbc.com##div[data-testid="image"]:has(img[alt*="Tech Decoded"])
+bleepingcomputer.com##.cz-full-bio-wrapp
 bloomberg.com##[href^="https://www.bloomberg.com/subscriptions"]
 bloomberg.com##button[aria-label="Copy page URL"]
 bloomberg.com##button[aria-label="Gift this article"]
@@ -68,7 +70,12 @@ duckduckgo.com##button:has-text(Share Feedback)
 earth.com##p:has(a[href*="https://www.earth.com/earthsnap/"])
 earth.com##p:has(a[href*="https://www.earth.com/subscribe/"])
 earth.com##p:has-text(—–)
+eurogamer.net##.author-inline
+eurogamer.net##.review_policy
+eurogamer.net,rockpapershotgun.com##.avatar
 eurogamer.net,rockpapershotgun.com##.mypop-header-wrapper
+eurogamer.net,rockpapershotgun.com##aside.disclaimer
+eurogamer.net,thegamer.com##.article-header-author-img
 exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', '#termsCheckbox')
 exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', 'a[ng-click="guest()"]')
 exchange.xforce.ibmcloud.com#%#//scriptlet('trusted-click-element', 'button[ng-click="$ctrl.propObj.skip()"]')
@@ -109,6 +116,8 @@ popularmechanics.com##div[data-journey-blur]:has(img[alt*="Headshot of"])
 popularmechanics.com##section:has-text(We may earn commission if you buy)
 prothomalo.com##.meta-data-icons
 prothomalo.com##.print-none:has(a[aria-label="Google News"])
+rockpapershotgun.com##.author-inline__bio
+rockpapershotgun.com##.commercial.button_group
 rt.com##.comments--migration
 techexplorist.com##.g-news
 thehackernews.com##.footer-gap
@@ -118,6 +127,7 @@ tipranks.com###top_ribbon
 securityweek.com##.zox-author-box-wrap
 space.com,techradar.com,tomsguide.com,windowscentral.com##[data-component-name="Recirculation:Overlay:Dialog"]
 startech.com.bd##.popup
+thegamer.com##.with-excerpt
 tomsguide.com,tomshardware.com##p:has-text(add us as a preferred source)
 twitch.tv##.channel-info-content div[class]:has(> div[class] > [style^='background-image: url('])
 twitch.tv##.chat-room__content > div:has(.channel-leaderboard-header-rotating__users)
