@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 48
+! Version: 49
 ! Date: 2025-09-26
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -55,16 +55,17 @@ cnet.com##hr
 cybersecuritynews.com##.author-box-wrap
 cybersecuritynews.com##a:has-text(Follow on LinkedIn)
 cybersecuritynews.com##p:has-text(Follow us on)
-daddylivestream.com##div#footer
-daddylivestream.com##div#sidebar
-daddylivestream.com##p:has-text(Be sure to join Latest DISCORD)
-daddylivestream.com##p:has-text(Use FREE VPN Chrome)
+daddylivestream.com###footer
+daddylivestream.com###sidebar
 businessinsider.com##section.post-video-recirc
 dailymail.co.uk###swipeIndicator
 dailymail.co.uk##.swipe-tutorial
 darkreading.com##.InformaBarTech
 darkreading.com##.Navigation-SecondaryMenuWrapper
 dhakatribune.com##.tts_read_btn
+dlhd.dad##.sidebar
+dlhd.dad##p:has-text(Be sure to join Latest DISCORD)
+dlhd.dad##p:has-text(Use FREE VPN Chrome)
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
 dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
