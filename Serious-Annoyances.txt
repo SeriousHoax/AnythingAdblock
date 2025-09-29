@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 50
+! Version: 51
 ! Date: 2025-09-30
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -27,6 +27,8 @@ al.com##.author-bio-e__container
 al.com##.sharebarBetaWrapper
 aljazeera.com##.rich-share
 aljazeera.com##.update-reading-list-tooltip
+androidauthority.com##div[data-container-type="content"]:has(a[href*="AAGooglePreferredSource"])
+androidauthority.com##div:has(> p:has-text(Affiliate links))
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,pcworld.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
