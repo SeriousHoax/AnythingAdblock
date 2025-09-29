@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 49
-! Date: 2025-09-26
+! Version: 50
+! Date: 2025-09-30
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -28,7 +28,7 @@ al.com##.sharebarBetaWrapper
 aljazeera.com##.rich-share
 aljazeera.com##.update-reading-list-tooltip
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
-androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,pcworld.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
 apnews.com##.Page-authorInfo
 arstechnica.com##.author-mini-bio
@@ -114,6 +114,7 @@ newyorker.com###bookmark
 nytimes.com##[data-testid="share-tools"]
 nytimes.com##.bottom-of-article p:has(a.authorPageLinkClass)
 nytimes.com##div:has(> .byline-container a[href^="https://www.nytimes.com/by/"])
+pcworld.com##.article-author-box
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
 popularmechanics.com##div[data-journey-blur]:has(img[alt*="Headshot of"])
