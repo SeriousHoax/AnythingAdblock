@@ -4,7 +4,7 @@
 // @homepageURL  https://github.com/SeriousHoax/AnythingAdblock
 // @description  Remove Unnecessary User Signature Images on cs.rin.ru
 // @match        https://cs.rin.ru/forum/*
-// @version      3
+// @version      4
 // @author       SeriousHoax
 // @downloadURL  https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/master/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
 // @updateURL    https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/master/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
