@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 56
+! Version: 57
 ! Date: 2025-10-06
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -131,6 +131,9 @@ prothomalo.com##.print-none:has(a[aria-label="Google News"])
 rockpapershotgun.com##.author-inline__bio
 rockpapershotgun.com##.commercial.button_group
 rt.com##.comments--migration
+scientificamerican.com##div[class*="columnSignup"]
+scientificamerican.com##footer:has(a[class*="bioLink-"])
+scientificamerican.com##section[class*="subscriptionPleaContainer"]
 securityweek.com##.zox-author-box-wrap
 space.com,techradar.com,tomsguide.com,windowscentral.com##[data-component-name="Recirculation:Overlay:Dialog"]
 space.com##div:has(> p > em > a[href="https://forums.space.com/"])
