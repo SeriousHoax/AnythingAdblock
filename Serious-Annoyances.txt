@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 58
+! Version: 59
 ! Date: 2025-10-11
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -23,6 +23,11 @@
 9to5google.com##.top-comment
 adguard-dns.io##div:has(> span:has-text(Start free trial))
 adguard.com##.flash-wrapper
+afr.com##[data-testid="ArticleFooter"]
+afr.com##[data-testid="ArticleTools"]
+afr.com##[data-testid="CTA-Default"]
+afr.com##div[class*="authorCard"]
+afr.com##iframe[src*="/publish-flourish/"]
 al.com##.article__paragraph--center.skimlinks
 al.com##.author-bio-e__container
 al.com##.sharebarBetaWrapper
