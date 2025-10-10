@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 59
+! Version: 60
 ! Date: 2025-10-11
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -61,6 +61,7 @@ cnet.com,zdnet.com##.c-globalDisclosure
 cnet.com,zdnet.com##p:has(a[href*="google.com/preferences/source"])
 cnet.com##.c-globalAuthor_meta .u-flexbox
 cnet.com##.c-globalAuthorImage
+cnet.com##div[data-catalyst-ui-component="CnetPreferredSourceButton"]
 cnet.com##hr
 cybersecuritynews.com##.author-box-wrap
 cybersecuritynews.com##a:has-text(Follow on LinkedIn)
