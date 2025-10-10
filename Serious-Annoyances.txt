@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 57
-! Date: 2025-10-06
+! Version: 58
+! Date: 2025-10-11
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -30,8 +30,8 @@ aljazeera.com##.rich-share
 aljazeera.com##.update-reading-list-tooltip
 androidauthority.com##div:has(> p:has-text(Affiliate links))
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
+androidcentral.com,gamesradar.com,infoworld.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,pcworld.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
-androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
 apnews.com##.Page-authorInfo
 arstechnica.com##.author-mini-bio
 av-comparatives.org##.fm-bar
@@ -104,6 +104,7 @@ gamingonlinux.com##.body.group.social-media-comments
 gamingonlinux.com##.box.affiliate_meta
 gamingonlinux.com##.h-card.p-author.box.comment
 gamingonlinux.com##.support_us_button
+ghacks.net##div[class*="ghacks_share_widget"]
 hackread.com##.cnvs-block-author
 hackread.com##.widget_text:has(.sib_signup_form)
 iflscience.com##.article__bottom__meta
@@ -112,6 +113,11 @@ india.com##.author-profile-row
 india.com##.breaking-news
 india.com##.google-preferred-source-btn
 india.com##.taboola-in-content
+indiandefencereview.com##.ns-buttons
+indiandefencereview.com##.widget:has(a.gb-container-link[href="https://indiandefencereview.com/newsletter/"])
+indiandefencereview.com##.wp-block-gnf-follow-us
+infoworld.com##.author-bio
+infoworld.com##.section-block--announcementbar
 itsfoss.com##section:has(> div > div.flex.flex-row a[href^="/author/"])
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
 neowin.net##span:has-text(When you purchase through links)
@@ -160,6 +166,8 @@ twitch.tv##section#channel-player-disclosures
 twitch.tv#$#.top-nav__prime { display: none !important; }
 twitch.tv#$#button[data-a-target="top-nav-get-bits-button"] { display: none !important; }
 washingtonpost.com##[aria-label="Save this article"]
+windowscentral.com##a[href*="news.google.com/publications/"]
+windowscentral.com##p:has(a[href*="news.google.com/publications/"])
 windowslatest.com##.author-box
 windowslatest.com##.support-buttons-container
 wired.com##[data-testid="action-bar-wrapper"]
