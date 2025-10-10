@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 60
+! Version: 61
 ! Date: 2025-10-11
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -180,6 +180,9 @@ wired.com##[data-testid="action-bar-wrapper"]
 zdnet.com##.c-globalAuthor_image
 zdnet.com##.c-globalAuthor_metaItem:not(.c-globalAuthor_metaItem-dateTime)
 zdnet.com##.c-globalEditorsChoiceBadge_container
+
+! Block Microsoft sign-in popups per-site
+||edge-auth.microsoft.com/js/ms_auth_client.min.js$script,domain=fortune.com
 
 ! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
