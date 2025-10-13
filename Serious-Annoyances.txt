@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 62
+! Version: 63
 ! Date: 2025-10-13
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -104,6 +104,7 @@ fortune.com##[data-cy="authors-bio-cards"]
 fortune.com##[href^="https://fortune.com/subscribe/"]
 fortune.com##button[data-cy="signinBtnDesktop"]
 fortune.com##div[data-cy="searchButton"]
+futurism.com###author-widgets
 gamingonlinux.com##.body.group.announce
 gamingonlinux.com##.body.group.rules-reminder
 gamingonlinux.com##.body.group.social-media-comments
