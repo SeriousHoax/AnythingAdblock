@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 61
-! Date: 2025-10-11
+! Version: 62
+! Date: 2025-10-13
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -111,6 +111,9 @@ gamingonlinux.com##.box.affiliate_meta
 gamingonlinux.com##.h-card.p-author.box.comment
 gamingonlinux.com##.support_us_button
 ghacks.net##div[class*="ghacks_share_widget"]
+gizmodo.com##button#btn-read-later
+gizmodo.com##div:has(> p:has-text(Share this story))
+gizmodo.com##div[data-mrf-recirculation="newsletter-form"]
 hackread.com##.cnvs-block-author
 hackread.com##.widget_text:has(.sib_signup_form)
 iflscience.com##.article__bottom__meta
