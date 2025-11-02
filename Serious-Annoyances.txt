@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 65
-! Date: 2025-10-26
+! Version: 66
+! Date: 2025-11-02
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -36,7 +36,7 @@ aljazeera.com##.update-reading-list-tooltip
 androidauthority.com##div:has(> p:has-text(Affiliate links))
 androidauthority.com##div:has(> strong:has-text(Authority Insights))
 androidcentral.com,gamesradar.com,infoworld.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
-androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,pcworld.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
 apnews.com##.Page-authorInfo
 arstechnica.com##.author-mini-bio
 av-comparatives.org##.fm-bar
@@ -51,14 +51,15 @@ bloomberg.com##[href^="https://www.bloomberg.com/subscriptions"]
 bloomberg.com##button[aria-label="Copy page URL"]
 bloomberg.com##button[aria-label="Gift this article"]
 bloomberg.com##button[aria-label="Saved"]
+bloomberg.com##div[data-component="author-bio"]
 bloomberg.com##div[data-component="security-list"]
 businessinsider.com##.cta-follow-button
 businessinsider.com##.dismissible-callout
 businessinsider.com##.share-bar
 businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
 businessinsider.com##section.post-video-recirc
+cnet.com,gbhackers.com,zdnet.com##p:has(a[href*="google.com/preferences/source"])
 cnet.com,zdnet.com##.c-globalDisclosure
-cnet.com,zdnet.com##p:has(a[href*="google.com/preferences/source"])
 cnet.com##.c-globalAuthor_meta .u-flexbox
 cnet.com##.c-globalAuthorImage
 cnet.com##div[data-catalyst-ui-component="CnetPreferredSourceButton"]
@@ -128,6 +129,7 @@ indiandefencereview.com##.widget:has(a.gb-container-link[href="https://indiandef
 indiandefencereview.com##.wp-block-gnf-follow-us
 infoworld.com,maketecheasier.com##.author-bio
 infoworld.com##.section-block--announcementbar
+itsfoss.com##.author-info
 itsfoss.com##section:has(> div > div.flex.flex-row a[href^="/author/"])
 linuxiac.com,windowslatest.com##.author-box
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
@@ -138,6 +140,7 @@ newyorker.com###bookmark
 nytimes.com##.bottom-of-article p:has(a.authorPageLinkClass)
 nytimes.com##[data-testid="share-tools"]
 nytimes.com##div:has(> .byline-container a[href^="https://www.nytimes.com/by/"])
+pcworld.com##.affiliate-disclaimer
 pcworld.com##.article-author-box
 phys.org##.article-main__support
 popularmechanics.com##.contentSaveButton
