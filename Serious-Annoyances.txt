@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 66
+! Version: 67
 ! Date: 2025-11-02
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
@@ -132,6 +132,7 @@ infoworld.com##.section-block--announcementbar
 itsfoss.com##.author-info
 itsfoss.com##section:has(> div > div.flex.flex-row a[href^="/author/"])
 linuxiac.com,windowslatest.com##.author-box
+linuxiac.com##div.ct-widget:has(a[href*="ko-fi.com/linuxiac"])
 neowin.net##p:has(a[href="https://www.neowin.net/subscribe/"])
 neowin.net##span:has-text(When you purchase through links)
 newsweek.com##.btn-cont
