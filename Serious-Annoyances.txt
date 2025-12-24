@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 69
-! Date: 2025-12-14
+! Version: 70
+! Date: 2025-12-24
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -154,6 +154,8 @@ rockpapershotgun.com##.author-inline__bio
 rockpapershotgun.com##.commercial.button_group
 rt.com##.comments--migration
 rumble.com##span.hidden.lg\:flex > button[hx-get="/-premium/htmx/premium-value-prop"]
+sammobile.com##.google-preferred-news-source-cta
+sammobile.com##.post-intro
 scientificamerican.com##div[class*="columnSignup"]
 scientificamerican.com##footer:has(a[class*="bioLink-"])
 scientificamerican.com##section[class*="subscriptionPleaContainer"]
