@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 70
-! Date: 2025-12-24
+! Version: 71
+! Date: 2025-12-29
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -176,11 +176,14 @@ twitch.tv##.chat-room__content > div:has(.channel-leaderboard-header-rotating__u
 twitch.tv##.chat-room__content div:has(.bits-leaderboard-expanded-top-three-entry)
 twitch.tv##.extension-view__iframe
 twitch.tv##.extensions-dock-card:has([role="tooltip"])
+twitch.tv##.tw-new-item-indicator__container
 twitch.tv##button:has-text(Go Ad-Free)
+twitch.tv##button:has-text(Try 1-Month Ad-Free)
 twitch.tv##button[data-a-target="bits-button"]
 twitch.tv##button[data-a-target="gift-button"]
 twitch.tv##button[data-a-target="subscribe-button"]
 twitch.tv##div[aria-label="Support with Combos"]
+twitch.tv##div[class*="giftExpirationCallout"]
 twitch.tv##section#channel-player-disclosures
 twitch.tv#$#.top-nav__prime { display: none !important; }
 twitch.tv#$#button[data-a-target="top-nav-get-bits-button"] { display: none !important; }
