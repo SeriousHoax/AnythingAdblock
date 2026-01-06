@@ -6,8 +6,8 @@
 // @match        https://cs.rin.ru/forum/*
 // @version      4
 // @author       SeriousHoax
-// @downloadURL  https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/master/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
-// @updateURL    https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/master/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
+// @downloadURL  https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/main/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
+// @updateURL    https://raw.githubusercontent.com/SeriousHoax/AnythingAdblock/refs/heads/main/Userscripts/cs.rin.ru-Remove-Unnecessary-Images.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
