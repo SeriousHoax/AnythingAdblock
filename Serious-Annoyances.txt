@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 71
-! Date: 2025-12-29
+! Version: 72
+! Date: 2026-01-06
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -71,6 +71,7 @@ daddylivestream.com###footer
 daddylivestream.com###sidebar
 dailymail.co.uk##.swipe-tutorial
 dailymail.co.uk###swipeIndicator
+darkreading.com##.ArticleBase-ContributorsWrapper
 darkreading.com##.InformaBarTech
 darkreading.com##.Navigation-SecondaryMenuWrapper
 dhakatribune.com##.tts_read_btn
@@ -165,6 +166,7 @@ space.com##div:has(> p > em > a[href="https://forums.space.com/"])
 startech.com.bd##.popup
 techcrunch.com##.wp-block-techcrunch-post-authors
 techexplorist.com##.g-news
+techraptor.net##.articles-author-card
 thegamer.com##.with-excerpt
 thehackernews.com##.footer-gap
 thehackernews.com##.webinar-con
