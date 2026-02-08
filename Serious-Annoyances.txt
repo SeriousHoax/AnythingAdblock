@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 74
-! Date: 2026-01-31
+! Version: 75
+! Date: 2026-02-08
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -144,6 +144,7 @@ newyorker.com###bookmark
 nytimes.com##.bottom-of-article p:has(a.authorPageLinkClass)
 nytimes.com##[data-testid="share-tools"]
 nytimes.com##div:has(> .byline-container a[href^="https://www.nytimes.com/by/"])
+pcmag.com##a[data-module="google-preferred-source"]
 pcworld.com##.affiliate-disclaimer
 pcworld.com##.article-author-box
 phys.org##.article-main__support
