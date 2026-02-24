@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 75
-! Date: 2026-02-08
+! Version: 76
+! Date: 2026-02-24
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -12,6 +12,7 @@
 ||bleepstatic.com/author/*$image
 ||cs.rin.ru/forum/download/file.php?avatar=*$image
 ||dodi-repacks.site/wp-content/uploads/*/OneHack*$image
+||dodi-repacks.site/wp-content/uploads/*/RW*$image
 ||dodi-repacks.site/wp-content/uploads/*/Support*$image
 ||dodi-repacks.site/wp-content/uploads/*/test2*$image
 ||fitgirl-repacks.site/wp-content/uploads/*/support2*$image
