@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 78
-! Date: 2026-03-02
+! Version: 79
+! Date: 2026-03-05
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -173,6 +173,7 @@ startech.com.bd##.popup
 techcrunch.com##.wp-block-techcrunch-post-authors
 techexplorist.com##.g-news
 techraptor.net##.articles-author-card
+telegraph.co.uk##.e-source-cta-wrapper
 thegamer.com##.with-excerpt
 thehackernews.com##.footer-gap
 thehackernews.com##.webinar-con
