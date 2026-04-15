@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 81
-! Date: 2026-03-18
+! Version: 82
+! Date: 2026-04-16
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -40,6 +40,8 @@ androidauthority.com##div:has(> strong:has-text(Authority Insights))
 androidcentral.com,gamesradar.com,infoworld.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.author
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com###affiliate-disclaimer
 apnews.com##.Page-authorInfo
+app.any.run##.metrics-cx--nps
+app.any.run##.new-feature-tooltip.ai-summary-tooltip
 arstechnica.com##.author-mini-bio
 av-comparatives.org##.fm-bar
 av-comparatives.org##.pojo-a11y-toolbar-right
@@ -147,6 +149,10 @@ newyorker.com###bookmark
 nytimes.com##.bottom-of-article p:has(a.authorPageLinkClass)
 nytimes.com##[data-testid="share-tools"]
 nytimes.com##div:has(> .byline-container a[href^="https://www.nytimes.com/by/"])
+openguessr.com##div[class*="endscreenSlideupContainer"]
+openguessr.com##div[class*="gameplayAdArea"]
+openguessr.com##div[class*="menu-tooltip"]
+openguessr.com##div[class*="mobileResultAdArea"]
 pcmag.com##a[data-module="google-preferred-source"]
 pcworld.com##.affiliate-disclaimer
 pcworld.com##.article-author-box
