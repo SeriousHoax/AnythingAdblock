@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 85
-! Date: 2026-05-27
+! Version: 86
+! Date: 2026-05-28
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -217,11 +217,14 @@ zdnet.com##.c-globalAuthor_image
 zdnet.com##.c-globalAuthor_metaItem:not(.c-globalAuthor_metaItem-dateTime)
 zdnet.com##.c-globalEditorsChoiceBadge_container
 
-! Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
+! Whitelist Google AI overview - Prevent Google AI overview from being blocked by AdGuard Other Annoyances Filter
 
-google.com#@#div[data-lhcontainer="1"][id][data-hveid]
-@@||google.*async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
-google.com#@#div[data-q][data-al]
+google.*#@#div:not([role]) > div[data-hveid] div[style^="margin-bottom:"][data-hveid]:has(div[id^="folsrch"])
+google.*#@#style + div[data-mcpr][style^="margin-bottom:"]:has(div[data-async-type="folsrch"])
+google.*#@#style + div[data-mcpr][style^="margin-bottom:"] div[data-async-type="folsrch"]
+google.*#@#div[data-lhcontainer="1"][eid][data-ved] > div > div > div[jsname] > div[style="display:contents"]
+google.*#@#div[data-q][data-al]
+@@||www.google.*/async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
 
 ! Change the number of YouTube video thumbnails per row on the homepage
 
