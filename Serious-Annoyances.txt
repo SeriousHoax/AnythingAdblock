@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 90
-! Date: 2026-06-20
+! Version: 91
+! Date: 2026-06-26
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -65,6 +65,7 @@ businessinsider.com##section.post-video-recirc
 chatgpt.com##aside:has-text(/^Improve accuracy for/)
 chatgpt.com##aside:has-text(Create richer image sets)
 chatgpt.com##aside:has-text(Get more thorough answers with Thinking)
+chatgpt.com##aside:has-text(Increase memory for more relevant answers)
 chatgpt.com##aside:has-text(Meet Codex.)
 chatgpt.com##aside:has-text(Upgrade for serious build-and-debug sessions)
 chatgpt.com##button[aria-label="Claim offer"]
