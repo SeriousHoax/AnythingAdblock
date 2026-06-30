@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 93
-! Date: 2026-06-29
+! Version: 94
+! Date: 2026-07-01
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -87,9 +87,9 @@ darkreading.com##.ArticleBase-ContributorsWrapper
 darkreading.com##.InformaBarTech
 darkreading.com##.Navigation-SecondaryMenuWrapper
 dhakatribune.com##.tts_read_btn
-dlhd.pk##.sidebar
-dlhd.pk##p:has-text(Be sure to join Latest DISCORD)
-dlhd.pk##p:has-text(Use FREE VPN Chrome)
+dlhd.st##.sidebar
+dlhd.st##p:has-text(Be sure to join Latest DISCORD)
+dlhd.st##p:has-text(Use FREE VPN Chrome)
 dodi-repacks.site##a[href="https://dodi-repacks.site/donate/"]:upward(section)
 dodi-repacks.site##a[href="https://game-repack.site/"]:upward(section)
 dodi-repacks.site##a[href="https://onehack.us/"]:upward(section)
