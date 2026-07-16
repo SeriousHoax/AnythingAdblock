@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 95
-! Date: 2026-07-01
+! Version: 96
+! Date: 2026-07-16
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -69,6 +69,8 @@ chatgpt.com##aside:has-text(Increase memory for more relevant answers)
 chatgpt.com##aside:has-text(Meet Codex.)
 chatgpt.com##aside:has-text(Try Codex for high-intent work)
 chatgpt.com##aside:has-text(Upgrade for serious build-and-debug sessions)
+chatgpt.com##aside:has-text(Writing code? Meet Codex in the desktop app)
+chatgpt.com##aside:has-text(You're on the free plan)
 chatgpt.com##button[aria-label="Claim offer"]
 cnet.com,gbhackers.com,zdnet.com##p:has(a[href*="google.com/preferences/source"])
 cnet.com,zdnet.com##.c-globalDisclosure
