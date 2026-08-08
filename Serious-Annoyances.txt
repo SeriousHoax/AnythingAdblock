@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 97
-! Date: 2026-07-18
+! Version: 98
+! Date: 2026-08-09
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -218,6 +218,8 @@ twitch.tv##section#channel-player-disclosures
 twitch.tv#$#.top-nav__prime { display: none !important; }
 twitch.tv#$#button[data-a-target="top-nav-get-bits-button"] { display: none !important; }
 washingtonpost.com##[aria-label="Save this article"]
+wccftech.com##.author-notice
+wccftech.com##.story-notice
 windowslatest.com##aside.wl-support-box
 wired.com##[data-testid="action-bar-wrapper"]
 zdnet.com##.c-globalAuthor_image
