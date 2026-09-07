@@ -62,8 +62,8 @@ businessinsider.com##.dismissible-callout
 businessinsider.com##.share-bar
 businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
 businessinsider.com##section.post-video-recirc
-chatgpt.com##aside:has-text("You're on the free plan")
 chatgpt.com##aside:has-text(/^Improve accuracy for/)
+chatgpt.com##aside:has-text(/^You're on the free plan/)
 chatgpt.com##aside:has-text(Create richer image sets)
 chatgpt.com##aside:has-text(Get more thorough answers with Thinking)
 chatgpt.com##aside:has-text(Increase memory for more relevant answers)
