@@ -3,8 +3,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/SeriousHoax/AnythingAdblock
 ! License: https://github.com/SeriousHoax/AnythingAdblock/blob/main/LICENSE
-! Version: 109
-! Date: 2026-10-24
+! Version: 110
+! Date: 2026-10-29
 
 ! Annoyances (Cookie Notices, Newsletter Notices, Subscription Notices, Self-Promotion, Other Annoyances)
 
@@ -62,6 +62,7 @@ businessinsider.com##.dismissible-callout
 businessinsider.com##.share-bar
 businessinsider.com##[href^="https://www.businessinsider.com/subscription"]
 businessinsider.com##section.post-video-recirc
+chatgpt.com##[data-home-beacon-banner]
 chatgpt.com##aside:has-text(/^Improve accuracy for/)
 chatgpt.com##aside:has-text(/^You're on the free plan/)
 chatgpt.com##aside:has-text(Create polished images with higher accuracy)
@@ -80,6 +81,7 @@ chatgpt.com##aside:has-text(Upgrade for serious build-and-debug sessions)
 chatgpt.com##aside:has-text(Writing code? Meet Codex in the desktop app)
 chatgpt.com##button:has-text(/^Upgrade$/)
 chatgpt.com##button:has(svg use[href*="codex-icon-gift-regular-16"])
+chatgpt.com##div.pointer-events-auto:has(button:has-text(Free offer))
 cnet.com,gbhackers.com,zdnet.com##p:has(a[href*="google.com/preferences/source"])
 cnet.com,zdnet.com##.c-globalDisclosure
 cnet.com##.c-globalAuthor_meta .u-flexbox
